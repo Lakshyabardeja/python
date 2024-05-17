@@ -1,22 +1,4 @@
-# number = int(input("type your specific number"))
-# if  number % 2 == 0:
-#   print("this is an even number")
-# else :
-#   print("this is an odd number")
 
-
-# age= int(input("whats ur age?"))
-# if age == +18 :
-#   print("Your ille")
-  
-
-# 0 - 333 fail 
-# 33 -50 grade d 
-# 50 - 70 gradfe c
-# 70 - 80 b
-# 80 - 90 a 
-#  90 - 100 a+
-# great 
 
 input("welcome to daisy international school,what is your name?")
 report_card= int(input("kitne nunber aaye beta aapke?"))
