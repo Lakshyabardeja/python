@@ -1,0 +1,13 @@
+def breakdown_amount(amount):
+    values = [500, 50, 20, 5, 1]
+    result = {}
+    for value in values:
+        count = amount // value
+        if count > 0:
+            result[value] = count
+            amount -= count * value
+    return result
+input_amount = 596
+breakdown = breakdown_amount(input_amount)
+for number, count in breakdown.items():
+    print(f"{count} notes of {number}")
